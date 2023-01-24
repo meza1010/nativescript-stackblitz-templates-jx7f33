@@ -7,11 +7,13 @@ export function onTap()
   /* Page transition: an animation that occurs when you navigate from one page to another*/
   //defining an object named navigationEntry
 
+  /* Navigation Entry objects may have the following properties
+  1. moduleName: 
+  */
+
   var naviationEntry = {
     
   }
-
-
 
   Frame.topmost().navigate("./info/info-page");
   // topmost() returns the last navigated Frame instance
