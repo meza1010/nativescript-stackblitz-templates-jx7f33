@@ -1,0 +1,16 @@
+<Page> <!-- Page represents separate application screen -->
+    <!--ActionBar represents a toolbar at the top of the activity 
+    window -->
+    <ActionBar title="My App" icon="" /> 
+    
+    <StackLayout ><!--StackLayout -places components below/beside each other, depending on its orientation -->
+        <Label text="First page app" />
+        <!-- Label  shows read-only text-->
+        <Label text="NativeScript is an open-source framework which empowers you to access native APIs. Currently iOS and Android runtime are provided." textWrap="true"> </Label>    
+        <!-- Other attributes: 
+        textAlignment: "left", "center", "right"
+        textDecoration: "none", "underline", "line-through"
+       -->    
+      <Button text="Information" tap="onTap" />
+    </StackLayout>
+</Page>

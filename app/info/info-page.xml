@@ -1,0 +1,10 @@
+<Page>
+  <StackLayout>
+    <Label textWrap="true">
+      <FormattedString>
+        <Span text = "Course: " />
+        <Span text="CIS 288" style="color:green" />
+      </FormattedString>
+    </Label>
+  </StackLayout>
+</Page>
